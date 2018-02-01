@@ -1,7 +1,7 @@
 {
   "name": "react-with-monitor",
   "version": "1.0.0",
-  "description": "A higher order component enaling use of async/await to wait for or respond to state/prop changes in a component",
+  "description": "A higher order component enaling use of async/await to wait for or respond to state/prop changes in a component.",
   "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
