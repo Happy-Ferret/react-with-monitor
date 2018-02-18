@@ -49,7 +49,7 @@ function withMonitor(WrappedComponent) {
                     if (!preRez) {
                         const predicateWrapped: PredicateWrapped = () => {
                             const rez = predicate(this.props, this.state);
-                            console.log('prediate rez:', rez);
+                            // console.log('prediate rez:', rez);
                             if (rez) {
                                 const ix = monitors.findIndex( ({ predicateWrapped:aPredicateWrapped }) => aPredicateWrapped === predicateWrapped );
                                 monitors.splice(ix, 1);
